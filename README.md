@@ -29,7 +29,7 @@ Since Python cannot directly capture system audio, we use **VB-Audio Virtual Cab
 3. Now Python will listen to system audio instead of physical speakers.
 
 #### Step 3.3: Enable Playback to Physical Device (So You Can Still Hear Sound)
-1. In Windows Sound Settings, go to **Recording → Cable Output → Right-click → Properties**.
+1. In Windows Advanced Sound Settings, go to **Recording → Cable Output → Right-click → Properties**.
 2. Go to the **Listen** tab.
 3. Enable **"Listen to this device"**.
 4. Under **"Playback through this device"**, select your physical speakers/headphones.
