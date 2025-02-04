@@ -1,5 +1,5 @@
 ##Real-time speech recognition
-For Russian: run display_noise_cancelling_russian.py
+For Russian: run display_noise_cancelling_russian_imrpoved.py
 For English: run display_noise_cancelling_english_improved.py
 
 ## Installation
@@ -36,3 +36,17 @@ Since Python cannot directly capture system audio, we use **VB-Audio Virtual Cab
 5. Click **OK**.
 
 Now, Python will capture system audio, and you will still hear it normally.
+
+
+For LSTM part of this project, I used the work of
+@inproceedings{Westhausen2020,
+  author={Nils L. Westhausen and Bernd T. Meyer},
+  title={{Dual-Signal Transformation LSTM Network for Real-Time Noise Suppression}},
+  year=2020,
+  booktitle={Proc. Interspeech 2020},
+  pages={2477--2481},
+  doi={10.21437/Interspeech.2020-2631},
+  url={http://dx.doi.org/10.21437/Interspeech.2020-2631}
+}
+
+please check out for more details.
