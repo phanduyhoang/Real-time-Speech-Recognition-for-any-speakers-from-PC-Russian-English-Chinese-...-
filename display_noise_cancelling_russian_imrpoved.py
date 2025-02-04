@@ -68,9 +68,9 @@ def main():
         raise ValueError("VB-Audio Virtual Cable not found!")
 
     # Audio processing parameters
-    samplerate = 16000
+    samplerate = 36000
     channels = 2
-    blocksize = 2048
+    blocksize = 4096
 
     # Adaptive noise reduction parameters
     NOISE_BUFFER_SIZE = 10  # Number of blocks to keep in noise profile (2 sec)
