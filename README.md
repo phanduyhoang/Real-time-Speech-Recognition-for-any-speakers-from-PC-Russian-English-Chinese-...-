@@ -12,7 +12,7 @@ pip install vosk sounddevice numpy
 ```
 
 ### Step 2: Download the Russian Vosk Model
-1. Visit [Vosk Models](https://alphacephei.com/vosk/models)
+1. Visit [Vosk Models](https://alphacephei.com/vosk/models) or any other language packages you want.
 2. Download the small Russian model (recommended for real-time processing). Example: `vosk-model-small-ru-0.22`
 3. Extract the model into your project directory.
 
