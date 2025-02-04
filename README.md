@@ -25,7 +25,7 @@ Since Python cannot directly capture system audio, we use **VB-Audio Virtual Cab
 
 #### Step 3.2: Set Virtual Cable as Default Audio Output
 1. Open Windows Sound Settings (`Win + R → mmsys.cpl`)
-2. In **Output**, set `Speakers (VB-Audio Virtual Cable)` as the **Default Device**.
+2. In **Output**, set `Speakers (VB-Audio Virtual Cable)` as the **Default Device**, or you can easily do that in sound settings in windows 11 for less headache, but you need to run mmsys.cpl for next step anyway.
 3. Now Python will listen to system audio instead of physical speakers.
 
 #### Step 3.3: Enable Playback to Physical Device (So You Can Still Hear Sound)
